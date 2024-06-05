@@ -1,6 +1,6 @@
 /* Registro.css */
 .page-container {
-    background-image: url('/public/Image/lo.jpg'); /* Cambiar el fondo con una imagen */
+    background-image: url('/public/Image/Real.jpg'); /* Cambiar el fondo con una imagen */
     background-size: cover; /* Ajustar el tamaño de la imagen de fondo */
     background-position: center; /* Centrar la imagen de fondo */
     min-height: 100vh; /* Asegura que el contenedor ocupe al menos la altura de la ventana */
