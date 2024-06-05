@@ -1,0 +1,19 @@
+.carrito-compras {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+.carrito-compras ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.carrito-compras li {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,63 @@
+/* Registro.css */
+.page-container {
+    background-image: url('/public/Image/lo.jpg'); /* Cambiar el fondo con una imagen */
+    background-size: cover; /* Ajustar el tamaño de la imagen de fondo */
+    background-position: center; /* Centrar la imagen de fondo */
+    min-height: 100vh; /* Asegura que el contenedor ocupe al menos la altura de la ventana */
+    
+    justify-content: center;
+    align-items: center;
+}
+.registro-container {
+    max-width: 400px;
+    margin: auto 0;
+    padding: 20px;
+    border: 2px solid #ccc;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 100vh;
+    
+    
+}
+
+.registro-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.registro-container form div {
+    margin-bottom: 15px;
+}
+
+.registro-container label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.registro-container input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.registro-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registro-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Añadir estilos para el enlace */
+.registro-container p {
+    text-align: center;
+}

@@ -1,0 +1,65 @@
+
+/* Login.css */
+.page-container {
+    background-image: url('/public/Image/lo.jpg'); /* Cambiar el fondo con una imagen */
+    background-size: cover; /* Ajustar el tamaño de la imagen de fondo */
+    
+    
+    
+    justify-content: center;
+    align-items: center;
+}
+.login-container {
+    max-width: 400px;
+    margin: auto 0; /* Centrar horizontalmente */
+    display: flex;
+    flex-direction: column;
+    /*background-image: url('/public/Image/lo.jpg'); /* Cambiar el fondo con una imagen */
+    justify-content: center; /* Centrar verticalmente */
+    height: 100vh; /* Ocupa el 100% de la altura de la pantalla */
+    border: 2px solid #ccc; /* Agregar borde */
+    
+    padding: 20px; /* Añadir relleno */
+    background-color: #ffffff; /* Fondo blanco */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Agrega un margen inferior */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Añadir estilos para centrar el enlace */
+p {
+    text-align: center;
+}

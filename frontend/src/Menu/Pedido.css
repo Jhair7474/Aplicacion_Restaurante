@@ -1,0 +1,48 @@
+.contenedor {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+/* Estilo para el cuadro de opciones */
+#domicilio {
+    width: 100%; /* Ajustar el ancho al 100% del contenedor */
+    padding: 10px; /* Añadir relleno para mayor elegancia */
+    border: 2px solid #ccc; /* Añadir borde */
+    border-radius: 8px; /* Añadir bordes redondeados */
+    background-color: #f8f8f8; /* Cambiar el color de fondo */
+    font-size: 16px; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+}
+
+/* Estilo para las opciones */
+#domicilio option {
+    background-color: white; /* Cambiar el color de fondo de las opciones */
+    color: #333; /* Cambiar el color del texto de las opciones */
+}
+
+/* Estilo para el campo de observación */
+#observacion {
+    width: 95%; /* Ajustar el ancho al 100% del contenedor */
+    height: 100px; /* Ajustar la altura del campo */
+    padding: 10px; /* Añadir relleno para mayor elegancia */
+    border: 2px solid #ccc; /* Añadir borde */
+    border-radius: 8px; /* Añadir bordes redondeados */
+    background-color: #f8f8f8; /* Cambiar el color de fondo */
+    font-size: 16px; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+}
+
+/* Estilo para el campo de método de pago */
+#metodoPago {
+    width: 100%; /* Ajustar el ancho al 100% del contenedor */
+    padding: 10px; /* Añadir relleno para mayor elegancia */
+    border: 2px solid #ccc; /* Añadir borde */
+    border-radius: 8px; /* Añadir bordes redondeados */
+    background-color: #f8f8f8; /* Cambiar el color de fondo */
+    font-size: 16px; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+}

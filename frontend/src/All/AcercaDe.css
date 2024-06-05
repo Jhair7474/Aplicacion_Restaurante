@@ -1,0 +1,65 @@
+/* src/All/AcercaDe.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.acerca-container {
+
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.acerca-container .container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparente para ver el fondo */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    text-align: center; /* Centrar el texto */
+}
+
+.acerca-container header h1 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.acerca-container .acerca-content h1 {
+    font-size: 3.5em; /* Aumenta el tamaño del título */
+    color: #333;
+    margin-top: 40px;
+}
+
+.acerca-container .acerca-content h2 {
+    font-size: 2em;
+    color: #333;
+    margin-top: 20px;
+}
+
+.acerca-container .acerca-content p,
+.acerca-container .acerca-content ul {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin: 0 auto;
+}
+
+.acerca-container .acerca-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

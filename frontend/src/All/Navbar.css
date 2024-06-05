@@ -1,0 +1,110 @@
+/* src/All/Navbar.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+/* src/All/Navbar.css */
+.user-email {
+    color: white; /* Color del texto */
+    background-color: blue; /* Color de fondo */
+    padding: 15px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-left: auto; /* Empujar el correo hacia la derecha */
+    text-align: center;
+}
+
+.logout-link {
+    background-color: red; /* Fondo rojo */
+    color: white; /* Texto blanco */
+    padding: 15px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.logout-link:hover {
+    background-color: darkred; /* Color de fondo al pasar el cursor */
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #000;
+}
+
+nav ul li {
+    margin: 0;
+    flex-grow: 1;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(249, 237, 237);
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    border-right: 1px solid #efe8e8;
+    transition: color 0.3s;
+}
+
+nav ul li:last-child a {
+    border-right: none;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    color: red;
+}
+
+.menu-options {
+    display: none;
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    background-color: white;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding-top: 10px; /* Agregar un pequeño relleno en la parte superior */
+}
+
+nav ul li:hover .menu-options {
+    display: block;
+}
+
+.menu-options li {
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-options li:last-child {
+    border-bottom: none;
+}
+
+.menu-options a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.menu-options a:hover {
+    background-color: #f0f0f0;
+}
+
+.main-content {
+    margin-top: 60px;
+}

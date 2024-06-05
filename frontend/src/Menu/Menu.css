@@ -1,0 +1,282 @@
+/* Estilo general para el contenedor principal */
+.menu-carnes-container {
+    background-image: url('/public/Image/Fondo.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajustar la imagen para cubrir todo el fondo */
+    background-position: center; /* Centrar la imagen de fondo */
+    padding: 50px;
+    text-align: center; /* Centrar el contenido */
+    color: white; /* Cambiar el color del texto para que contraste con el fondo */
+    
+}
+/* Estilo para la lista de comidas */
+.lista-comidas {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    gap: 20px;
+}
+/* Estilos para el título h2 dentro del contenedor .menu-carnes-container */
+.titulo-menu {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+  
+/* Estilo para cada comida */
+.comida {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 80%; /* Ajustar el ancho para centrar */
+    max-width: 600px; /* Máximo ancho para evitar que sea demasiado grande */
+}
+
+/* Estilo para la imagen de la comida */
+.imagen-comida img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Estilo para los detalles de la comida */
+.detalles-comida {
+    margin-left: 20px;
+    text-align: left; /* Alinear texto a la izquierda */
+    flex-grow: 1;
+    color: #000000; /* Cambiar el color del texto de los detalles a negro */
+}
+
+/* Estilo para el botón */
+.btn-agregar {
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px; /* Ajustar el ancho del botón */
+    align-items: center;
+}
+
+.btn-agregar:hover {
+    background-color: #218838;
+}
+
+/* Estilo para el carrito */
+.carrito-compras {
+    margin-top: 20px;
+}
+
+/* Estilo para las descripciones */
+.descripcion-comida {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los botones de navegación */
+.botones-navegacion {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .botones-navegacion a {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #760000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botones-navegacion a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo general para el contenedor principal */
+.menu-postres-container {
+    background-image: url('/public/Image/Fondo.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajustar la imagen para cubrir todo el fondo */
+    background-position: center; /* Centrar la imagen de fondo */
+    padding: 20px;
+    text-align: center; /* Centrar el contenido */
+    color: white; /* Cambiar el color del texto para que contraste con el fondo */
+}
+
+/* Estilo para la lista de postres */
+.lista-postres {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    gap: 20px;
+}
+
+/* Estilos para el título h2 dentro del contenedor .menu-postres-container */
+.menu-postres-container .titulo-menu {
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilo para cada postre */
+.postre {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 80%; /* Ajustar el ancho para centrar */
+    max-width: 600px; /* Máximo ancho para evitar que sea demasiado grande */
+}
+
+/* Estilo para la imagen del postre */
+.imagen-postre img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Estilo para los detalles del postre */
+.detalles-postre {
+    margin-left: 20px;
+    text-align: left; /* Alinear texto a la izquierda */
+    flex-grow: 1;
+    margin-left: 20px;
+    text-align: left; /* Alinear texto a la izquierda */
+    flex-grow: 1;
+    color: #000000; /* Cambiar el color del texto de los detalles a negro */
+}
+
+/* Estilo para el botón */
+.btn-agregar {
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px; /* Ajustar el ancho del botón */
+}
+
+.btn-agregar:hover {
+    background-color: #218838;
+}
+
+/* Estilos para los botones de navegación */
+.botones-navegacion {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.botones-navegacion .boton-navegacion {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #760000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.botones-navegacion .boton-navegacion:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo general para el contenedor principal */
+.menu-bebidas-container {
+    background-image: url('/public/Image/Fondo.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajustar la imagen para cubrir todo el fondo */
+    background-position: center; /* Centrar la imagen de fondo */
+    padding: 20px;
+    text-align: center; /* Centrar el contenido */
+    color: white; /* Cambiar el color del texto para que contraste con el fondo */
+}
+
+/* Estilo para la lista de bebidas */
+.lista-bebidas {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    gap: 20px;
+}
+
+/* Estilos para el título h2 dentro del contenedor .menu-bebidas-container */
+.menu-bebidas-container .titulo-menu {
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilo para cada bebida */
+.bebida {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 80%; /* Ajustar el ancho para centrar */
+    max-width: 600px; /* Máximo ancho para evitar que sea demasiado grande */
+}
+
+/* Estilo para la imagen de la bebida */
+.imagen-bebida img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Estilo para los detalles de la bebida */
+.detalles-bebida {
+    margin-left: 20px;
+    text-align: left; /* Alinear texto a la izquierda */
+    flex-grow: 1;
+    color: #000000; /* Cambiar el color del texto de los detalles a negro */
+}
+
+/* Estilo para el botón */
+.btn-agregar {
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px; /* Ajustar el ancho del botón */
+}
+
+.btn-agregar:hover {
+    background-color: #218838;
+}
+
+/* Estilos para los botones de navegación */
+.botones-navegacion {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.botones-navegacion .boton-navegacion {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #760000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.botones-navegacion .boton-navegacion:hover {
+    background-color: #0056b3;
+}
+
